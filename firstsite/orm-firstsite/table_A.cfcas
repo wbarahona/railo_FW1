@@ -1,0 +1,8 @@
+<cfcomponent persistent="true" table="table_A">
+	
+	<cfproperty name="table_A_ID" column="id" generator="native">
+	<cfproperty name="table_A_description">
+	<cfproperty name="table_A_date">
+	<cfproperty name="table_A_price">
+
+</cfcomponent>
